@@ -1,0 +1,10 @@
+[buildpack]
+id      = "mono-repo-cnb"
+version = "4.0.0"
+
+[[buildpack.order]]
+group = [
+   { path = "alpha-cnb" },
+   { path = "bravo-cnb" },
+   { id   = "io.buildpacks.charlie-cnb", version = "3.0.0" },
+]

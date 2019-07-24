@@ -1,0 +1,3 @@
+[buildpack]
+id      = "io.buildpacks.bravo-cnb"
+version = "2.0.0"
