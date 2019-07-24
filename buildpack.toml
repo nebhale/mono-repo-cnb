@@ -2,7 +2,7 @@
 id      = "mono-repo-cnb"
 version = "4.0.0"
 
-[[buildpack.order]]
+[[order]]
 group = [
    { path = "alpha-cnb" },
    { path = "bravo-cnb" },
